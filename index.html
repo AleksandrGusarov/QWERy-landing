@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+	<link rel="stylesheet" href="style/style.css">
 </head>
 <body>
 		<!-- Начало: Данный блок удалять нельзя -->
@@ -76,7 +77,229 @@
 		<!-- Конец -->
 
 		<div class="main">
-			В данном блоке размещается верстка
+			<header class="body-header">
+				<div class="container">
+					<div class="header-wrapper">
+						<h2 class="logo">QWERy</h2>
+			
+						<nav class="navigation">
+							<ul class="navigation__list">
+								<li class="navigation__item">
+									<a href="" class="navigation__link">Information</a>
+								</li>
+								<li class="navigation__item">
+									<a href="" class="navigation__link">About us</a>
+								</li>
+								<li class="navigation__item">
+									<a href="" class="navigation__link">Culture</a>
+								</li>
+							</ul>
+						</nav>
+			
+						<form action="#" class="search">
+							<input type="text" class="search__input">
+							<p class="search__paragraph">Search</p>
+						</form>
+					</div>
+			
+					<section class="promo">
+						<h2 class="visually-hidden"></h2>
+						<ul class="social">
+							<li class="social__item">Follow us</li>
+							<li class="social__item">
+								<a href="#" class="social__link">
+									<svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M7.8 2.00003H16.2C19.4032 2.00003 22 4.59678 22 7.80003V16.2C22 19.4033 19.4032 22 16.2 22H7.8C4.59675 22 2 19.4033 2 16.2V7.80003C2 4.59678 4.59675 2.00003 7.8 2.00003ZM7.6 4.00001C5.61177 4.00001 4 5.61179 4 7.60001V16.4C4 18.3882 5.61177 20 7.6 20H16.4C18.3882 20 20 18.3882 20 16.4V7.60001C20 5.61179 18.3882 4.00001 16.4 4.00001H7.6ZM17.25 5.50001C17.9404 5.50001 18.5 6.05966 18.5 6.75001C18.5 7.44037 17.9404 8.00001 17.25 8.00001C16.5596 8.00001 16 7.44037 16 6.75001C16 6.05966 16.5596 5.50001 17.25 5.50001ZM12 7.00001C14.7614 7.00001 17 9.23859 17 12C17 14.7614 14.7614 17 12 17C9.23857 17 7 14.7614 7 12C7 9.23859 9.23857 7.00001 12 7.00001ZM12 9.00001C10.3431 9.00001 9 10.3432 9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12C15 10.3432 13.6569 9.00001 12 9.00001Z" />
+									</svg>
+								</a>
+							</li>
+			
+							<li class="social__item">
+								<a href="#" class="social__link">
+									<svg width="21" height="17" viewbox="0 0 21 17" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M20.9184 2.01238C20.1488 2.35373 19.3216 2.58442 18.4536 2.68815C19.3395 2.15701 20.0201 1.31598 20.3405 0.31378C19.5112 0.80564 18.5928 1.16278 17.6152 1.3552C16.8324 0.52112 15.7171 0 14.4827 0C12.1126 0 10.1909 1.92147 10.1909 4.29155C10.1909 4.6279 10.2289 4.95546 10.3021 5.2696C6.73532 5.0906 3.57298 3.38203 1.45632 0.78551C1.08688 1.41935 0.87524 2.15656 0.87524 2.94309C0.87524 4.43204 1.63287 5.74563 2.78446 6.5153C2.08102 6.4929 1.41919 6.2999 0.84062 5.97846C0.84021 5.99639 0.84021 6.0143 0.84021 6.0324C0.84021 8.1118 2.31956 9.8463 4.28282 10.2406C3.92272 10.3387 3.54357 10.3912 3.15217 10.3912C2.87563 10.3912 2.60678 10.3642 2.34469 10.3142C2.89084 12.0191 4.47576 13.26 6.35377 13.2945C4.88499 14.4457 3.0345 15.1318 1.02376 15.1318C0.67735 15.1318 0.33574 15.1114 0 15.0717C1.89926 16.2894 4.15514 17 6.57873 17C14.4726 17 18.7894 10.4605 18.7894 4.78918C18.7894 4.60314 18.7852 4.41805 18.7769 4.23395C19.6155 3.62886 20.3431 2.87302 20.9184 2.01238Z" />
+									</svg>
+								</a>
+							</li>
+			
+							<li class="social__item">
+								<a href="#" class="social__link">
+									<svg width="11" height="22" viewbox="0 0 11 22" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M8.99175 3.81896H11V0.161958C10.6535 0.112125 9.46196 0 8.07424 0C5.17873 0 3.19523 1.90421 3.19523 5.40404V8.625H0V12.7132H3.19523V23H7.11274V12.7142H10.1787L10.6654 8.62596H7.11182V5.80942C7.11274 4.62779 7.41705 3.81896 8.99175 3.81896Z" />
+									</svg>
+								</a>
+							</li>
+						</ul>
+			
+						<div class="promo-wrapper">
+							<p class="promo__subtitle">explore the Nature Beauty</p>
+							<h1 class="promo__title"><b>Discover</b>
+								Wonderful Indonesia</h1>
+							<button class="promo__scroll">Scroll down</button>
+						</div>
+					</section>
+				</div>
+			</header>
+			<main class="body-main">
+				<section class="nusa">
+					<h2 class="visually-hidden"></h2>
+					<img src="img/section_1.jpg" alt="EAST NUSA" class="nusa__img">
+			
+					<div class="nusa-wrapper">
+						<p class="nusa__subtitle">EAST nUSA TENGGARA</p>
+						<h2 class="nusa__title">Have you
+							enjoyed your
+							holiday?</h2>
+						<p class="nusa__paragraph">You will be amazed if you take part in this sailing Komodo island tour package. So it
+							is also mandatory for you, besides
+							enjoying Komodo tourism on Komodo Island, you also have to taste the marine tourism. The beautiful waters of
+							Komodo will
+							make you meet many travelers from other countries.</p>
+						<button class="nusa__button">read more</button>
+					</div>
+				</section>
+			
+				<section class="bromo">
+					<div class="bromo-wrapper">
+						<h2 class="visually-hidden"></h2>
+						<p class="bromo__subtitle">Bromo</p>
+						<h2 class="bromo__title">Steady your steps, we will climb together!</h2>
+						<p class="bromo__paragraph">Enjoying the vast expanse of the sea of ​​​​sand, witnessing the splendor of Mount
+							Semeru
+							that soars into the sky, and
+							gazing at the beauty of the sun moving out of its bed or otherwise enjoying the dim twilight from the Bromo
+							ridge is
+							an
+							unforgettable experience when visiting Bromo.</p>
+						<button class="bromo__button">read more</button>
+					</div>
+				</section>
+			
+				<section class="culture">
+					<h2 class="visually-hidden"></h2>
+					<div class="culture-wrapper">
+						<p class="culture__subtitle">INDONESIAN CULTURE</p>
+						<h2 class="culture__title">Our culture here
+							is very friendly
+							to people</h2>
+						<p class="culture__paragraph">known for his politeness, manners and gentleness. This becomes a characteristic when
+							they mingle with other tribes and
+							become basic traits that are passed down by their ancestors.</p>
+						<button class="culture__button">read more</button>
+					</div>
+					<img src="img/section_3.jpg" alt="" class="culture__img">
+				</section>
+			</main>
+			<footer class="body-footer">
+				<aside class="asking">
+					<h2 class="asking__title">QWERy</h2>
+					<div class="asking-wrapper">
+						<p class="asking__paragraph">Ready to explore?</p>
+						<button class="asking__button">Get started</button>
+					</div>
+				</aside>
+			
+				<aside class="menu">
+					<div class="menu__wrapper">
+						<h2 class="menu__title">Let's go on vacation,
+							Make your day</h2>
+						<form action="#" class="menu__form">
+							<label>
+								<input type="email" placeholder="Email address" class="menu__input">
+								<button type="submit" class="menu__button"></button>
+							</label>
+						</form>
+					</div>
+			
+					<div class="menu__wrapper-column">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="#" class="menu__link">Services</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Email Marketing</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Campaigns</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Branding</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Offline</a>
+							</li>
+						</ul>
+			
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="#" class="menu__link">About</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Our Story</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Benefits</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Team</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Careers</a>
+							</li>
+						</ul>
+			
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="#" class="menu__link">Help</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">FAQs</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Contact Us</a>
+							</li>
+						</ul>
+					</div>
+				</aside>
+			
+				<aside class="terms">
+					<div class="wrapper-terms">
+						<a href="#" class="terms__link">Terms & Conditions</a>
+						<a href="#" class="terms__link">Privacy Policy</a>
+					</div>
+					<ul class="terms-social">
+						<li class="terms-social__item">
+							<a href="#" class="terms-social__link">
+								<svg width="11" height="22" viewbox="0 0 11 22" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M8.99175 3.81896H11V0.161958C10.6535 0.112125 9.46196 0 8.07424 0C5.17873 0 3.19523 1.90421 3.19523 5.40404V8.625H0V12.7132H3.19523V23H7.11274V12.7142H10.1787L10.6654 8.62596H7.11182V5.80942C7.11274 4.62779 7.41705 3.81896 8.99175 3.81896Z" />
+								</svg>
+							</a>
+						</li>
+						<li class="terms-social__item">
+							<a href="#" class="terms-social__link">
+								<svg width="21" height="17" viewbox="0 0 21 17" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M20.9184 2.01238C20.1488 2.35373 19.3216 2.58442 18.4536 2.68815C19.3395 2.15701 20.0201 1.31598 20.3405 0.31378C19.5112 0.80564 18.5928 1.16278 17.6152 1.3552C16.8324 0.52112 15.7171 0 14.4827 0C12.1126 0 10.1909 1.92147 10.1909 4.29155C10.1909 4.6279 10.2289 4.95546 10.3021 5.2696C6.73532 5.0906 3.57298 3.38203 1.45632 0.78551C1.08688 1.41935 0.87524 2.15656 0.87524 2.94309C0.87524 4.43204 1.63287 5.74563 2.78446 6.5153C2.08102 6.4929 1.41919 6.2999 0.84062 5.97846C0.84021 5.99639 0.84021 6.0143 0.84021 6.0324C0.84021 8.1118 2.31956 9.8463 4.28282 10.2406C3.92272 10.3387 3.54357 10.3912 3.15217 10.3912C2.87563 10.3912 2.60678 10.3642 2.34469 10.3142C2.89084 12.0191 4.47576 13.26 6.35377 13.2945C4.88499 14.4457 3.0345 15.1318 1.02376 15.1318C0.67735 15.1318 0.33574 15.1114 0 15.0717C1.89926 16.2894 4.15514 17 6.57873 17C14.4726 17 18.7894 10.4605 18.7894 4.78918C18.7894 4.60314 18.7852 4.41805 18.7769 4.23395C19.6155 3.62886 20.3431 2.87302 20.9184 2.01238Z" />
+								</svg>
+							</a>
+						</li>
+						<li class="terms-social__item">
+							<a href="#" class="terms-social__link">
+								<svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M7.8 2.00003H16.2C19.4032 2.00003 22 4.59678 22 7.80003V16.2C22 19.4033 19.4032 22 16.2 22H7.8C4.59675 22 2 19.4033 2 16.2V7.80003C2 4.59678 4.59675 2.00003 7.8 2.00003ZM7.6 4.00001C5.61177 4.00001 4 5.61179 4 7.60001V16.4C4 18.3882 5.61177 20 7.6 20H16.4C18.3882 20 20 18.3882 20 16.4V7.60001C20 5.61179 18.3882 4.00001 16.4 4.00001H7.6ZM17.25 5.50001C17.9404 5.50001 18.5 6.05966 18.5 6.75001C18.5 7.44037 17.9404 8.00001 17.25 8.00001C16.5596 8.00001 16 7.44037 16 6.75001C16 6.05966 16.5596 5.50001 17.25 5.50001ZM12 7.00001C14.7614 7.00001 17 9.23859 17 12C17 14.7614 14.7614 17 12 17C9.23857 17 7 14.7614 7 12C7 9.23859 9.23857 7.00001 12 7.00001ZM12 9.00001C10.3431 9.00001 9 10.3432 9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12C15 10.3432 13.6569 9.00001 12 9.00001Z" />
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</aside>
+			
+				<p class="footer-copyrigth">Copyright 2021 QWERy</p>
+			</footer>
 		</div>
 </body>
 </html>
